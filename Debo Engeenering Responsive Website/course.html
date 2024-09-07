@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debo Engineering University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+   <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="about.html">ABOUT</a></li>
+                                    <li><a href="course.html">COURSE</a></li>
+                                    <li><a href="blog.html">BLOG</a></li>
+                                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>OUR COURSES</h1>
+   </section>
+<section class="course">
+    <h1>courses we offer</h1>
+    <p>Debo Engeenering offers online teachings</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Basic computer</h3>
+            <p>Computer skills are essential in 
+                todays world, so explore more about
+                computers with our trainers.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Programmings</h3>
+            <p>Grasp programming foundation,
+               write robust code with programming
+               and build software from scratch
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Website Design</h3>
+            <p>Develop responsive web pages with HTML,
+                CSS and JavaScript. Master moder JavaScript
+                and use key frameworks.</p>
+        </div>
+    </div>
+    </section>
+    <section class="facilitiesblaa">
+        <h1>our facilities</h1>
+        <p>Debo Engeenering offers online teachings</p>
+        <div class="row">
+            
+            <div class="facilitiesblaa-col">
+                <img src="images/library.png">
+                <h3>Debo class libraries</h3>
+                <p>Debo engeenering offers many courses
+                    within his own libraries so if you
+                    want to explore more join us.
+                </p>
+            </div>
+            <div class="facilitiesblaa-col">
+                <img src="images/basketball.png">
+                <h3>Debo online learnings</h3>
+                <p>Debo offers large online progams so 
+                    find your own interest and join our 
+                    online classes. 
+                </p>
+            </div>
+            <div class="facilitiesblaa-col">
+                <img src="images/cafeteria.png">
+                <h3>Debo workshops</h3>
+        <p>Debo have large workshops in order for
+            students to explore more about platforms 
+            and different hardware objects.
+        </p>
+    </div>
+        </div>
+        
+        </section>
+
+<section class="footer">
+<h4>ABOUT US</h4>
+<P>Debo Engineering is offering online titorials and certificates. 
+    <br>We offer titorials based on  Artificial Intelligence,  
+   Internet of things (IOT), Data Science,  Big Data analysis and other related technologies.
+</P>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made  <i class="fa fa-heart-o"></i> By <br>Yosef tedi Zele & Teme</p>
+</section>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    } 
+    function hidemenu(){
+        navlinks.style.right = "-260px";
+    } 
+
+</script>
+
+</body>
+</html>

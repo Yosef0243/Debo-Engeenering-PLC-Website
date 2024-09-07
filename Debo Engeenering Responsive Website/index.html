@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solomon Delessa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+   <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="course.html">COURSE</a></li>
+             <li><a href="blog.html">BLOG</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Professional Tutoring & Personalized Home Learning Solutions </h1>
+        </div>
+   </section>
+<section class="course">
+<h1>courses we offer</h1>
+<p>Some of our survices listed below. Contact us to get at amazing titorials. </p>
+<div class="row">
+    <div class="course-col">
+        <h3>Basic computer</h3>
+        <p>Computer skills are essential in 
+            todays world, so explore more about
+            computers with our trainers.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Programmings</h3>
+        <p>Grasp programming foundation,
+           write robust code with programming
+           and build software from scratch
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Website Design</h3>
+        <p>Develop responsive web pages with HTML,
+            CSS and JavaScript. Master moder JavaScript
+            and use key frameworks.</p>
+    </div>
+</div>
+</section>
+<section class="campus">
+<h1>our global campus</h1>
+<p>Explore more with our Academies located accross the world.</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/jimma.png">
+        <div class="layer">
+            <h3>JIMMA</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/addisabeba.png">
+        <div class="layer">
+            <h3>ADDIS ABEBA</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/adama.png">
+        <div class="layer">
+            <h3>ADAMA</h3>
+        </div>
+    </div>
+</div>
+</section>
+<section class="facilitiesblaa">
+<h1>our facilities</h1>
+<p>Debo Engeenering offers online teachings</p>
+<div class="row">
+    
+    <div class="facilitiesblaa-col">
+        <img src="images/library.png">
+        <h3>Debo class libraries</h3>
+        <p>Debo engeenering offers many courses
+            within his own libraries so if you
+            want to explore more join us.
+        </p>
+    </div>
+    <div class="facilitiesblaa-col">
+        <img src="images/basketball.png">
+        <h3>Debo online learnings</h3>
+        <p>Debo offers large online progams so 
+            find your own interest and join our 
+            online classes. 
+        </p>
+    </div>
+    <div class="facilitiesblaa-col">
+        <img src="images/cafeteria.png">
+        <h3>Debo workshops</h3>
+        <p>Debo have large workshops in order for
+            students to explore more about platforms 
+            and different hardware objects.
+        </p>
+    </div>
+</div>
+
+</section>
+<section class="testimonials">
+    <h1>what our student says</h1>
+    <p>Comments from our senior students are written below  </p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>
+                    I learned a lot of skills and education from
+                    debo engeenering academy and i want to tell 
+                    you that it is amazing titorial.
+                </p>
+                <h3>YOSEF DELESA</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>one of the most interesting thing about debo
+                    engeenering is they offer the trainings with 
+                    an amazing trainers.
+                </p>
+                <h3>JONNY</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta">
+<h1>ENROL FOR OUR VARIOUS ONLINE COURSES <br>ANYWHERE FROM THE WORLD</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+<section class="footer">
+<h4>ABOUT US</h4>
+<P>Debo Engineering is offering online titorials and certificates. 
+     <br>We offer titorials based on  Artificial Intelligence,  
+    Internet of things (IOT), Data Science,  Big Data analysis and other related technologies.
+    
+</P>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made  <i class="fa fa-heart-o"></i> By <br>Yosef tedi Zele & Teme</p>
+</section>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    } 
+    function hidemenu(){
+        navlinks.style.right = "-260px";
+    } 
+
+</script>
+
+</body>
+</html>
